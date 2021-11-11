@@ -5,8 +5,11 @@ Desde mi punto de vista, instigo a centrar el periodismo de datos en el ámbito 
 
 En cuanto a la visualización  de datos en el fútbol, ha sido empleada para mejorar las tácticas  y las explicaciones de los entrenadores a sus jugadores. La primera técnica de visalización fue Data Viz que permitía conocer el rendimiento del equipo d una manera precisa, exacta y ordenada. Sin embargo,  el principal defecto era el excesivo  conglomerado de datos que podía ser un obstáculo para un aprendizaje efectivo de los jugadores. Destaca los mapas de calor por su uso sencillo y eficaz. Sirve para conocer el terreno de juego y las partes que más ha pisado los jugadores. Por ejemplo, se puede ver si un lateral ha sido más ofensivo o defensivo dependiendo de la parte del campo que más haya pisado. No sólo es un instrumento de enseñanza para los entrenadores ya que además sirve  de apoyo para los narradores  que divulgan ese conocimiento a los espectadores que procesan de manera más sencilla la información. 
 
-<img src= "https://static.capabiliaserver.com/frontend/clients/barca/wp_prod/wp-content/uploads/2020/´6/231801d5-1b.png">
+![image](https://user-images.githubusercontent.com/90409482/141382987-6127fda4-0920-4bb8-a670-79b64f203f76.png)
+
+
 
 Otra técnica usada ha sido la telestración de videos que ha dinamizado la enseñanza táctica  de los entrenamientos sacando el rendimiento máximo al equipo gracias a un conglomerado de datos bien ajustados para identificar las debilidades y las fortalezas además de las amenazas  de las oportunidades. 
 
-<img src="https://static.capabiliaserver.com/frontendd/clients/bar 
+![image](https://user-images.githubusercontent.com/90409482/141382962-04d0b79e-b4f2-45a4-a13d-0696866f868f.png)
+
