@@ -13,6 +13,3 @@ http://selfiecity.net/
 
 Me ha llamado la atención esta página web dedicada a la visualización de datos relacionado con un fenómeno actual como es el selfie. Esto demuestra la buena acogida o relación que hay entre la visualización de datos y la modernidad propiamente dicha. Creo que sería importante utilizar la visualización de datos para la denuncia social como hemos visot en el primer caso y para el entretenimiento como hemos visto este último caso. Sin embargo, aunque iría en paralelo a la idea de denuncia social, me parece imprescindible destacar la importancia de la visualización de datos en el oficio del periodismo. El periodismo siempre se ha alimentado de datos pero en esta epoca donde Internet nos ha comido el terreno es importante saber jugar con los datos, aprovechar todos sus usos y hacerlos  cuánto más atractivo mejor sin perder la rigurosidad y exactitud   .b
 
-
-Aprovechando un tema que me apasiona como es el cine, voy a ejemplificar algo que cada día es más evidente: Las noticias en el medio digital han evolucionado y se han vuelto más complejas porque las fuentes y los datos elevan el prestigio de lo que se está narrando y lo visual ayuda a convertir la noticia en un elemento llamativo para el lector. 
-
