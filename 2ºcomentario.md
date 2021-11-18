@@ -68,7 +68,7 @@ El modo vuelo en 3D ha permitido mayor dinamismo y, sobre todo, combinar perspec
   ![image](https://user-images.githubusercontent.com/90409482/142507123-eebcb48a-b2f5-4a5c-83c7-15aefc5873c1.png)
   
 Son ejemplos que, a mi parecer, son adecuados. LOs tres apuestan por el color verde ya que posee una relación directa con el concepto de *ecología*. Además, también se cuida el color a la hora de referirse al reciclaje con los distintos contenedores identificados con el color correspodiente. Se apuesta por insertar la mayor cantidad de datos posibles en el menor espacio y, en ese sentido, a pesar de que a simple vista pueda agobiar tanto contenido junto, la estuctura es apropiada. El gráfico que predomina es el **gráfico circular o por sectores** que sirve para dar al usuario una información  eficiente y rápida que se beneficia de los colores diferenciadores. 
-
+  
 Me parece importante insertar el periodismo de datos en el mundo educativo. Proporcionan información a golpe de vista en una sociedad que parece ser más visual que textual en la actualidad. La ciudadanía prefiere que le den la información ya masticada con los datos ya organizados y estructurados y si es a través de gráficos mejor.  
 
   
