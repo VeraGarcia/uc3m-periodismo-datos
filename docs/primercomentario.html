@@ -1,94 +1,60 @@
 
-<! doctype html >
-<html  lang = " es " class = " h-100 " >
-<! - Cambio el idioma de "en" a "es" ->
-  <header >
-    <meta  charset = " utf-8 " >
-    <meta  name = " viewport " content = " width = device-width, initial-scale = 1 " >
-    <meta  name = " description " content = "" >
-    <meta  name = " author " content = "Vera García y Marina García Greciano " >
-    <meta  name = " generator " content = " nano " >
-    <título > Trabajo final </ título >
+<! DOCTYPE html>
+<html lang = "en">
 
+<cabeza>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> Práctica 1 </title>
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integridad = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin = "anónimo">
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integridad = "sha384-QJHtvGhmr9XOIpI6YVutG + 2QOK9T + ZnN4kzFN1RtK3zEFEIsxhlmWl5 / YESvpZ13"
+        crossorigin = "anónimo"> </script>
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integridad = "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg + OMhuP + IlRH9sENBO0LRn5q + 8nbTov4 + 1p"
+        crossorigin = "anónimo"> </script>
+</head>
 
-    <link  rel = " canonical " href = " https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/ " >
+<encabezado>
+    <! - Barra de navegación fija ->
+    <nav class = "navbar navbar-expand-md navbar-dark Fixed-top bg-dark">
+      <div class = "contenedor-fluido">
+        <a class="navbar-brand" href="index.html"> Trabajo Final - Vera García Martínez </a>
+        <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "# navbarCollapse"
+          aria-controls = "navbarCollapse" aria-extended = "false" aria-label = "Alternar navegación">
+          <span class = "navbar-toggler-icon"> </span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navbarCollapse">
+          <ul class = "navbar-nav me-auto mb-2 mb-md-0">
+            <li class = "nav-item">
+              <a class="nav-link active" aria-current="page" href="primercomentario.html"> Práctica 1 </a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link" href="segundocomentario.html"> Práctica 2 </a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link" href="ejercicio3datawrapper.html"> Práctica 3 </a>
+            </li>
+            </li class ="nav-item">
+              <a class="nav-link" href="ejercicio4datawrapper.html"> Práctica 4 </a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link" href="metodología.html"> Metodología </a>
+            </li>
+          </ul>
+          <form class = "d-flex">
+            <input class = "form-control me-2" type = "search" placeholder = "Search" aria-label = "Search">
+            <button class = "btn btn-outline-success" type = "submit"> Buscar </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    
-
-    <! - Bootstrap core CSS, la hoja de estilo básica de bootstrap, la he puesto en la carpeta css ->
-<link  href = " css / bootstrap.min.css " rel = " hoja de estilo " >
-
-     <estilo >
-      . bd-placeholder-img {
-        tamaño de fuente :  1.125 rem ;
-        ancla de texto : medio;
-        -webkit-user-select : ninguno;
-        -moz-user-select : ninguno;
-        selección de usuario : ninguno;
-      }
-
-      ( ancho mínimo :  700 px ) {. navbar { text-align : center;}
-          tamaño de fuente :  3,5 rem ;
-
-        }
-      }
-    </ estilo >
-
-  
-<! - Estilos personalizados para esta plantilla ->
-    <link  href = " css / sticky-footer-navbar.css " rel = " hoja de estilo " >
-  </ cabeza >
-  <body  class = " d-flex flex-column h-100 " >
-   <encabezado >
-  <! - Barra de navegación fija ->
-  <nav  class = " navbar navbar-expand-md navbar-dark Fixed-top bg-dark " >
-    <div  class = " contenedor-fluido " >
-      <Una  clase = " barra de navegación de la marca " href =" # " > Vera García Martínez y Marina García Greciano </ a >
-      <button  class = " navbar-toggler " type = " button " data-bs-toggle = " collapse " data-bs-target = " #navbarCollapse " aria-controls = " navbarCollapse " aria- extended = " false " aria-label = " Alternar navegación " >
-        <span  class = " navbar-toggler-icon " > </ span >
-      </ botón >
-      <div  class = " collapse navbar-collapse " id = " navbarCollapse " >
-        <ul  class = " navbar-nav me-auto mb-2 mb-md-0 " >
-          <li  class = " nav-item " >
-            <Una  clase = " nav-enlace activo " aria-corriente "= página " href =" index.html " > Inicio </ a >
-          </ li >
-          <li  class = " nav-item " >
-            <Una  clase = " nav-link " href =" primercomentario.html " > Práctica 1 </ una >
-          </ li >
-          <li  class = " nav-item " >
-            <Una  clase = " nav-link " href =" segundocomentario.html " > Práctica 2 </ una >
-          </ li >
-          <li  class = " nav-item " >
-            <Una  clase = " nav-link " href =" ejecicio3datawrapper.html " > Práctica 3 </ una >
-          </ li >
-          <li  class = " nav-item " >
-            <Una  clase = " nav-link " href =" ejercicio4datawrapper.html " > Prácref = " css / sticky-footer-navbar.css " rel = " hoja de estilo " >
-          </li  >
-       </ ul >
-        <form  class = " d-flex " >
-          <input  class = " form-control me-2 " type = " search " placeholder = " Search " aria-label = " Search " >
-          <button  class = " btn btn-outline-success " type = " submit " > Buscar </ button >
-        </ formulario >
-      </ div >
-    </ div >
-  </ nav >
-<encabezado >
-
-<! - Contenido de la página de inicio ->
-
-<main  class = " flex-shrink-0 " >
-  <div  class = " contenedor " >
-<h1 id = "primer comentario" > PRIMER COMENTARIO </ h1 >
-<p>Comentario_Crítico_visualización_de_Datos</p>
-<figure>
-<img src="https://user-images.githubusercontent.com/90409482/132851403-be78f598-f46b-4ca9-9cc3-cd2d689427d5.png" alt="" /><figcaption>image</figcaption>
-</figure>
-<p>La autora de esta visualización d e datos fue Florence Nightingale, de fama reconocida. El mapa pertenece a la guerra de Crimea (1850) y se reflejan los distintos tipos de muerte que se produjeron duante la guerra. Se demostró que la mayor parte de las muertes no fue por consecuencia directa de la guerra sino que se produjeron en los hospitales por las malas condiciones y la poca atención recibida. Me parece una infografía que cumple con tres requisitos que a mi parecer son los más importantes: Originalidad, sencillez y claridad. Aún pensando que este tipo de gráficos suelen presentar algunas dificultades para traducirlo en la realidad, la autora apoya lo visual con lo textual creando una combinación que facilita la comprensión de quien lo está interpretando. Me parece interesante el uso que se le da porque con esos datos busca reafirmar su tesis y hacer una denuncia social.</p>
-<p>Aunque, sin duda alguna, en estos tiempos si hay una palabra que caracteriza la evolución en el uso de datos es: DINAMISMO. Los gráficos y las infografías han dejado de ser herramientas rígidas para empezar a buscar la interacción del usuario favoreciendo la integración de un numero mayo de datos en un espacio menor. Un ejemplo lo tenemos aquí: https://twitter.com/galka_max/status/862932456017670146?s=20</p>
-<p>Lo que más me llama la atención es cómo la visualización de datos no tiene la problemática de estancarse porque viven en constante movimiento. Estamos en un momento de agotamiento visual, donde buscamos más las imágenes y los vídeos que textos largos y de letra pequeña, sobre todo en soportes tecnológicos como tablet o móviles. Es por ello que la visualización de datos ha encontrado un hueco donde reiventarse y se ha buscado grandes compañeros para apoyarse destacando el fenómeno del story-telling.</p>
-<p>http://selfiecity.net/</p>
-<p>Me ha llamado la atención esta página web dedicada a la visualización de datos relacionado con un fenómeno actual como es el selfie. Esto demuestra la buena acogida o relación que hay entre la visualización de datos y la modernidad propiamente dicha. Creo que sería importante utilizar la visualización de datos para la denuncia social como hemos visot en el primer caso y para el entretenimiento como hemos visto este último caso. Sin embargo, aunque iría en paralelo a la idea de denuncia social, me parece imprescindible destacar la importancia de la visualización de datos en el oficio del periodismo. El periodismo siempre se ha alimentado de datos pero en esta epoca donde Internet nos ha comido el terreno es importante saber jugar con los datos, aprovechar todos sus usos y hacerlos cuánto más atractivo mejor sin perder la rigurosidad y exactitud .b</p>
-=======
+<cuerpo>
+    <div class = "contenedor">
 <p>Comentario_Crítico_visualización_de_Datos</p>
 <figure>
 <img src="https://user-images.githubusercontent.com/90409482/132851403-be78f598-f46b-4ca9-9cc3-cd2d689427d5.png" alt="" /><figcaption>image</figcaption>
@@ -99,18 +65,7 @@
 <p>http://selfiecity.net/</p>
 <p>Me ha llamado la atención esta página web dedicada a la visualización de datos relacionado con un fenómeno actual como es el selfie. Esto demuestra la buena acogida o relación que hay entre la visualización de datos y la modernidad propiamente dicha. Creo que sería importante utilizar la visualización de datos para la denuncia social como hemos visot en el primer caso y para el entretenimiento como hemos visto este último caso. Sin embargo, aunque iría en paralelo a la idea de denuncia social, me parece imprescindible destacar la importancia de la visualización de datos en el oficio del periodismo. El periodismo siempre se ha alimentado de datos pero en esta epoca donde Internet nos ha comido el terreno es importante saber jugar con los datos, aprovechar todos sus usos y hacerlos cuánto más atractivo mejor sin perder la rigurosidad y exactitud .b</p>
 
-    </ div >
- </ main >
+       </div>
+</body>
 
-<footer  class = " footer mt-auto py-3 bg-light " >
-  <div  class = " contenedor " >
-    <span  class = " text-muted " > Periodismo de datos </ span >
-  </ div >
-</ pie de página >
-
-
-    <script  src = " js / bootstrap.bundle.min.js " > </ script >
-
-      
-  </ cuerpo >
-</ html >
+</html>
