@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es" class="h-100">
+<!-- Cambio el idioma de inglés a español -->  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Marina G. Greciano y Vera García Greciano">
+    <meta name="generator" content="nano">
+    <title>TRABAJO FINAL PERIODISMO DE DATOS - Marina G. Greciano</title>
+<!-- Cambio de título -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sticky-footer-navbar/">
+
+ <!-- Bootstrap core CSS: la hoja de estilo básica de bootstrap. Se ha puesto en la carpeta css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+ <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+ <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+<header>
+  <!-- Fixed navbar: modifico el menú superior para añadir todos los trabajos del curso -->
+    <nav class = "navbar navbar-expand-md navbar-dark Fixed-top bg-dark">
+      <div class = "contenedor-fluido">
+        <a class="navbar-brand" href="index.html">TRABAJO FINAL PERIODISMO DE DATOS - Marina G. Greciano </a>
+        <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "# navbarCollapse"
+          aria-controls = "navbarCollapse" aria-extended = "false" aria-label = "Alternar navegación">
+          <span class = "navbar-toggler-icon"> </span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navbarCollapse">
+          <ul class = "navbar-nav me-auto mb-2 mb-md-0">
+            <li class = "nav-item">
+              <a class="nav-link active" aria-current="page" href="primera-infografia.html"> Práctica 1 </a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link" href="segunda-infografia.html"> Práctica 2 </a>
+            </li>
+            <li class = "nav-item">
+              <a class="nav-link" href="practicas-3-y-4.html"> Prácticas 3 y 4 </a>
+             </li>    
+            <li class = "nav-item">
+              <a class="nav-link" href="metodologia.html"> Metodología </a>
+            </li>
+          </ul>
+          <form class = "d-flex">
+            <input class = "form-control me-2" type = "search" placeholder = "Search" aria-label = "Search">
+            <button class = "btn btn-outline-success" type = "submit"> Buscar </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+    <div class="container">
+        <div class="row d-flex aling-items-center justify-content-center" style="margin-top: 5rem !important;">
+<h1 id="practicas-3-y-4-">Prácticas-3-y-4</h1>
+<h2 id="introducción">Introducción</h2>
+<p>El objetivo del presente ejercicio radica en expresar una serie de datos por medio de gráficos que permitan una mejor visualización de los datos y que conviertan una serie de números más bien abstractos en una representación mucho más concreta. Así pues, para la elaboración de las prácticas que nos ocupan, se han utilizado una serie de aplicaciones adecuadas a cada uno de los pasos que se han venido siguiendo hasta llegar al resultado final, presentado en este repositorio.</p>
+<h2 id="justificación-de-la-elección-de-esta-base-de-datos">Justificación de la elección de esta base de datos</h2>
+<p>En principio, la base de datos elegida -“Deportistas de alto nivel en Castilla y León”- contaba con los siguientes parámetros: año, fecha de registro, federaciones deportivas Castilla y León, procedimiento, grupo, apellidos, nombre, desestimación, causa desestimación y detalle desestimación. A priori, parecía ser un data set que determinaba si los candidatos presentados eran reconocidos como deportistas de alto nivel o no en función de sus logros deportivos; es por esto que me resultó interesante descartar los datos relativos a quienes no habían sido reconocidos como tal para centrarme así en quienes habían entrado a formar parte de la nomenclatura de “deportistas de alto nivel”. A partir de ahí, traté de purgar los datos que no me interesaban para así poder realizar las gráficas que, por el contrario, sí me resultaban atractivas de interpretar.</p>
+<h2 id="aplicaciones-y-modo-de-proceder">Aplicaciones y modo de proceder</h2>
+<p>En primer lugar, la base de datos .csv se ha trasladado a OpenRefine, donde de más de 500 celdas se ha pasado a 319. Se han desestimado los datos relativos a las solicitudes que habían sido denegadas y, con las aceptadas, se ha elaborado una clasificación en función de los distintos deportes que practican las personas contabilizadas. También se ha utilizado Excel (aplicación de Microsoft) con el fin de pulir, por medio de una serie de fórmulas y formatos condicionales, algunos detalles mínimos concernientes a datos myt concretos. Asimismo, se han segregado las crifras relativas a las diferentes categorías que aparecían en la base de datos inicial, siendo estas: deportista, entrenador/a y juez/árbitro. Una vez tenemos los datos con los que nos disponemos a trabajar, pasamos a DataWrapper, una aplicación cuya finalidad radica en dar forma a las tablas que le son dadas desde otras plataformas. Su accesibilidad es adecuada y cuenta con diversas funciones para modificar la apariencia de los esquemas que produce; lo más positivo, a mi modo de ver es que la sencillez no actúa en detrimento de la calidad de sus funciones, lo que la convierte en una aplicación asequible a la par que íntegra. Por último y tras haber elaborado las tablas deseadas con sus correspondientes representaciones, estas han sido importadas a GitHub para entrar así a formar parte de la presente explicación.</p>
+<h2 id="segregación-por-sexos">Segregación por sexos</h2>
+<figure>
+<iframe title="Segregación por sexos alto nivel CyL" aria-label="Gráfico de círculo" id="datawrapper-chart-mQ2hh" src="https://datawrapper.dwcdn.net/mQ2hh/4/" scrolling="no" frameborder="0" style="border: none;" width="832" height="767"></iframe>
+<figure>
+<p>Para este primer gráfico, se han separado los datos mediante una selección de los nombres femeninos y masculinos y una posterior separación de ambos grupos con el fin de observar la presencia de un género y otro entre las categorías de alto nivel. Los hombres tienen un 26% más de representación que el sector de las mujeres dentro de este ámbito, lo cual puede dar lugar a un proceso de reflexión: ¿qué es lo que falla en el ámbito deportivo para que las mujeres tengan una presencia tan por debajo del sector masculino? La elaboración de este gráfico tiene su justificación en una demostración de lo necesario que resulta encontrar más referentes entre las niñas para que en ellas cale la idea de que también pueden optar por una carrera deportiva y remar así hacia la senda de la igualdad real, también en el deporte. La elección del gráfico de sectores se justifica en que este tipo de representaciones resulta muy práctico a la hora de expresar proporciones y cuánto contribuye cada una de las partes al total, lo cual se corresponde exactamente con la intencionalidad anteriormente descrita. La selección de los colores se ha llevado a cabo de acuerdo con los estereotipos</p>
+<h2 id="categorías">Categorías</h2>
+<figure>
+<iframe title="Categorías de alto nivel" aria-label="Gráfico de círculo" id="datawrapper-chart-nG4uj" src="https://datawrapper.dwcdn.net/nG4uj/3/" scrolling="no" frameborder="0" style="border: none;" width="600" height="567"></iframe>
+<figure>
+<p>De la misma forma que el anterior, por medio de un gráfico sectorial se representan aquí los distintos tipos de cargos que encontramos entre los denominados “de alto nivel” en la provincia de Castilla y León. Como es evidente, la mayor parte de este compendio de personas dedicadas al deporte está configurado por los propios deportistas, quienes representan casi un 85% del total. En menor medida, encontramos también entrenadores y jueces y árbitros. En este caso, se ha optado por el empleo de tonalidades verdosas por tratarse de un color ligado a la naturaleza y a la salud, dos factores íntimamente ligados a la práctica deportiva.</p>
+<h2 id="tipo-de-participación">Tipo de participación</h2>
+<figure>
+<iframe title="Tipo de participación alto nivel CyL" aria-label="Gráfico de columnas agrupadas" id="datawrapper-chart-hihu6" src="https://datawrapper.dwcdn.net/hihu6/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="400"></iframe>
+<figure>
+<p>En este tercer caso, se busca establecer una comparación entre la cantidad de deportistas que se dedican a deportes colectivos frente a quienes lo hacen de manera individual, razón por la cual la representación elegida ha sido una gráfica con dos barras. El color se ha seleccionado de manera arbitraria, obedeciendo así a una mera preferencia estética. Aunque no se precisa con total exactitud el número de personas que se dedican a cada modalidad, sí se puede apreciar cómo los deportes individuales sobrepasan a los que se juegan por grupos.</p>
+<h2 id="deportes-utensilios-pelota">Deportes utensilios: pelota</h2>
+<figure>
+<iframe title="Participantes deportes con pelota alto nivel" aria-label="Barras agrupadas" id="datawrapper-chart-afCqi" src="https://datawrapper.dwcdn.net/afCqi/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="453"></iframe>
+<figure>
+<p>En última instancia, se ha elaborado una representación para medir los deportes en los que se utiliza pelota y en los que no. Con este gráfico de barras horizontales en color naranja (tonalidad que resulta de lo más vigorizante y asociada a la actividad física, siendo esta bastante menos agresiva que la roja), se puede ver cómo el fútbol y el rugby son los dos deportes que cuentan con mayor número de participantes. Cada una de las barras aparece correspondientemente sombreada para mostrar de manera más clara hasta qué punto llega cada una.</p>
+<h2 id="conclusión-del-ejercicio">Conclusión del ejercicio</h2>
+<p>En líneas generales, las conclusiones que saco de estas prácticas es que las aplicaciones utilizadas para llevarlas a cabo cumplen a la perfección con sus funciones. La que me ha resultado más útil de las dos ha sido, sin duda alguna, Datawrapper, puesto que me ha parecido de lo más práctica y sencilla, mientras que OpenRefine se me ha complicado un poco más en tanto que no es tan intuitiva, aunque una vez se va aprendiendo a utilizar, se convierte en una buena herramienta para manejar grandes amalgamas de datos. A mi parecer, la función de las facetas de OpenRefine es la que más curiosa y completa en sus funciones.</p>
+
+  </div>
+</main>
+
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">Periodismo de Datos. Grupo 61. 2021. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+<!-- this is the end -->
+      
+  </body>
+</html>
